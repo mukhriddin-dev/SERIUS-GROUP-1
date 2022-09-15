@@ -1,0 +1,20 @@
+0. Math operators , O'zlashtirish operatorlari , Taqqoslash operatorlari.
+1. JavaScriptda ma'lumot turlari => 8 ta => primativ , no primativ
+[
+   1.string  => "salom" , 'salom' , '111222' , `444 va 555`;
+   2.Number => 0 , 0.000001 , -11, -7 , 7.7
+   3.Boolean => true  = 1 , false = 0
+   4.Undefined => let a
+   5.Null => let a=null;
+   6.Symbol
+   7.Big Int 33e50
+
+   8.Object 
+]
+2. JavaScriptda Variables => O'zgaruvchilar => var , let , const
+
+3. Condition => if else, ternary , switch
+ 
+4. Loops => while , do while , for 
+
+5. JavaScriptda Scopes => Qavslar ( global scope , Local scope , Block scope, Function Scope);
