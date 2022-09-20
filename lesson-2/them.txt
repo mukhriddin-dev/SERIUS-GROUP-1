@@ -1,0 +1,9 @@
+
+1. Condition =>  ternary , switch
+ 
+2. Loops => while , do while , for 
+
+3. function 
+
+4. JavaScriptda Scopes => Qavslar ( global scope , Local scope , Block scope, Function Scope);
+

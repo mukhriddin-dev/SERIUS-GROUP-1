@@ -50,26 +50,34 @@
 
 // =========== 3 ===========
 
-let light='transparent';
+// let light='transparent';
 
-if(light==='red'){
+// if(light==='red'){
 
-   console.log('GO');
+//    console.log('GO');
 
-}else if(light==='yellow'){
+// }else if(light==='yellow'){
 
-   console.log('warning');
+//    console.log('warning');
 
-}else if(light="transparent"){
+// }else if(light="transparent"){
 
-  console.log(' SVET YO\'Q ');
+//   console.log(' SVET YO\'Q ');
   
-}else{
+// }else{
 
-   console.log('STOP or WARNING')
-}
+//    console.log('STOP or WARNING')
+// }
 
 // console.log(light==='red');
+
+// var a=11;
+
+// var a=10;
+
+// var a=40;
+
+// console.log(a+a);
 
 
 
