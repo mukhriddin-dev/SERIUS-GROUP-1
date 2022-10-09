@@ -1,0 +1,17 @@
+
+ Scroll & window & document
+
+ - Scroll
+ - DOMContentLoaded
+ - load
+
+
+ Day 7
+
+ setAttribute()
+ getAttribute()
+ practice (toggle menu)
+ setInterval() / clearInterval( )
+ setTimeOut() / clearTimeout( )
+
+    

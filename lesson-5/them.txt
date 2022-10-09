@@ -1,0 +1,36 @@
+ 1. Stling elemnts
+ 2. event
+ 3. addEventListener 
+ 4. attributes
+ 5. EVENT Object
+ 6. EVENTS
+
+ Mouse EVENTS
+ 1. click
+ 2. dblclick
+ 3. mouseover
+ 4. mouseout
+ 5. mousedown
+ 6. mouseup
+
+ Keyboard EVENTS
+
+ 1. keydown 
+ 2. keypress
+ 3. keyup
+
+ Forms events:
+
+ 1. focus
+ 2. blur
+ 3. submit
+ 4. change
+ 5. input
+ 
+ Scroll & window & document
+
+ - Scroll
+ - DOMContentLoaded
+ - load
+
+    

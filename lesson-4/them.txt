@@ -1,0 +1,21 @@
+ 1. String methods
+
+    - String.length
+    - String.trim()
+    - String.toUpperCase();
+    - String.toLowerCase();
+    - toString()
+    - String.search();
+    - String.match(); 
+    - charAt(n)
+
+2. Object and methods
+
+3. DOM selectors
+    getElementsByTagName()
+    getElementsByClassName()
+    getElementById()
+    querySelector()
+    querySelectorAll() 
+
+

@@ -1,4 +1,4 @@
-1. function , decloartion , expression  ES5, arraw ES5 ,
+1. function , decloartion , expression  ES5, arrow ES6 ,
 
 2. JavaScriptda Scopes => Qavslar ( global scope , Local scope , Block scope, Function Scope);
 
