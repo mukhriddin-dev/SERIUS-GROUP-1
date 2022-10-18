@@ -1,11 +1,15 @@
 "use strict";
 
-let card = createElement('div', 'text-warning p-5 shadow my-3', 'javascript');
-$('.wrapper').appendChild(card);
+let array=[1,2,3,4,5,6,7,8,9,10,11,12,13];
 
-let car1 = createElement('div', 'text-warning p-5 shadow my-3', 'javascript');
-$('.wrapper').appendChild(car1)
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
 
-let imgWrapper = createElement('div', 'card my-2 shadow', "<img src='https://picsum.photos/300/300'>");
+// push
+// pop
 
-$('.wrapper').appendChild(imgWrapper)
+
+for(let i=100; i<1000; i++){
+   console.log(i);
+}

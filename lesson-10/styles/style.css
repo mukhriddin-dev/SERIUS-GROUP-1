@@ -1,0 +1,12 @@
+.wrapper{
+   /* display: grid; */
+   /* grid-template-columns: repeat(4, minmax(300px , 1fr)); */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+
+.card{
+   width: 250px;
+}
