@@ -1,0 +1,16 @@
+{
+   "students": [
+      {
+         "id": 1,
+         "user_name": "Smanadar Xayrullayev",
+         "score": 100
+      },
+      {
+         "id": 2,
+         "user_name": "Saidabror Yunusov",
+         "score": 100
+      }
+   ],
+
+   "topusers":[]
+}

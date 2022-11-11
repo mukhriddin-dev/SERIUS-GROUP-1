@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CRUD APP</title>
+   <link rel="stylesheet" href="./styles/bootstrap.min.css">
+   <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+   <header class="bg-primary p-3">
+      <div class="container">
+         <nav class="nav">
+            <h3 class="text-white">
+               STUDENTS-APP
+            </h3>
+         </nav>
+      </div>
+   </header>
+
+   <div class="container">
+      <div class="row">
+         <div class="col-md-3 p-3 m-2 shadow">
+            <form action="#" id="sendData">
+               <label for="userName" class="w-100 mb-3">
+                  <strong>Enter user name</strong>
+                  <input type="text" class="form-control p-2" id="userName" placeholder="Enter username">
+               </label>
+
+               <label for="userScore" class="w-100 mb-3">
+                  <strong>Enter user score</strong>
+                  <input type="text" class="form-control p-2" id="useScore" placeholder="Enter user score">
+               </label>
+
+               <button class="btn btn-primary w-100">
+                  ADD USER
+               </button>
+
+            </form>
+         </div>
+         <!-- controller panel -->
+
+         <!-- user table -->
+         <div class="col-md-7 p-3 bg-white m-2 shadow">
+            <table class="table table-striped table-hover">
+
+               <thead>
+                  <tr>
+                     <th class="fw-bold">ID</th>
+                     <th class="fw-bold">Student name</th>
+                     <th class="fw-bold">Score</th>
+                     <th class="fw-bold">Edit</th>
+                     <th class="fw-bold">Delete</th>
+                  </tr>
+               </thead>
+
+               <tbody>
+
+
+               </tbody>
+
+            </table>
+         </div>
+
+         <div class="col p-3 bg-white m-2 shadow">
+
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+
+
+</body>
+<script src="./scripts/plugin.js"></script>
+<script src="./app.js"></script>
+
+</html>

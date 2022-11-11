@@ -1,0 +1,19 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+main {
+   width: 100%;
+   min-height: calc(100vh - 50px - 50px);
+  
+}
+
+.wrapper{
+   display: flex;
+   grid-template-columns: repeat(4 , minmax(450px, 1fr));
+   gap:10px;
+}
+

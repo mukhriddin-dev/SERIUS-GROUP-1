@@ -1,0 +1,11 @@
+{
+  "name": "lesson-2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Mukhriddin",
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "normalize.css": "^8.0.1"
+  }
+}

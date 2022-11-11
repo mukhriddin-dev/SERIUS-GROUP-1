@@ -116,6 +116,45 @@ brands.forEach((e) => {
 })
 
 
+$('.form-select').addEventListener('change', (evt) => {
+   $('.wrapper').innerHTML = ""
+   const filterFilms = products.filter((e) => {
+
+      return e.brand.toLowerCase() == evt.target.value.toLowerCase()
+   })
+
+   filterFilm(filterFilms)
+
+})
+
+
+
+function filterFilm(db=[]) {
+
+
+console.log(db);
+   db.forEach((e, index, array) => {
+    
+      let card = createElement('div', 'card m-2 shadow', ` 
+   
+   <img
+      src="${e.img}"
+      alt="smartphone" class="card-img">
+
+      <div class="card-body">
+         <h4 class="card-title">${e.name}</h4>
+         <p>Price:<strong> ${e.price}$</strong></p>
+         <p>Category:<strong>${e.category}</strong></p>
+         <button class="${e.isBuy ? "btn btn-success" : "btn btn-danger"}">${e.isBuy ? "SOTUVDA MAVJUD" : "SOTUVDA YO'Q"}</button>
+      </div>
+
+   `);
+
+      $('.wrapper').appendChild(card);
+   })
+}
+
+
 
 
 // let num=[1,2,3,3,3,4,4,5,1,6,7,8,12,21,12];
